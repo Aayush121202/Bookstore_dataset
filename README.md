@@ -35,10 +35,13 @@ given the bookstore dataset, we have analyzed and developed a classification mod
 
 ## Rating Prediction:
 
+### Approach:
+- After doing some EDA and preprocessing, we did feature extraction - in which we created a new column for discrete values of ratings in the span of 0.5 from 0 to 5. Then we used different multi-class classification models to classify the estimated rating for the new instances.
+
 # Classification Problem: 2
 
 ## Weight Prediction
-
+- While taking into the consideration of dimention of the book, we came up with the idea of weight of the book. By which we can predict if the book is over-weight or under-weight. Which is a binary classification problem. We have done this using multiple predicting models like random forest, ridge classification and logistic regression.
 
 
 ## Contributions:
@@ -52,3 +55,4 @@ given the bookstore dataset, we have analyzed and developed a classification mod
 3. Weight Prediction:
 * Ayush Patel(202101439)
 * Aayush Patel(202101452)  
+* Dhruvil Thakor(202101462)
